@@ -1,0 +1,41 @@
+
+/******Header******/
+nav.navHeader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.Booki {
+    width: 61.09px;
+    height: 19px;
+    padding: 30px 50px;
+}
+
+ul.ulHeader {
+    width: 244px;
+    height: 35px;
+    display: flex;
+    list-style: none;
+    gap: 68px;
+}
+
+li.liHebergements {
+    width: 112px;
+    height: 19px;
+    border-top: solid 2px #0065FC;
+    color: #0065FC;
+}
+
+.a-ulheader {
+    font-size: 16px;
+    cursor: default;
+}
+
+li.liActivités {
+    width: 63px;
+    height: 35px;
+}
+
+
