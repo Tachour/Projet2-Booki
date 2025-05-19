@@ -18,38 +18,44 @@
 <body>
     <div class="main-container">
         <header>
-            
-                
-                    <nav class="navHeader">
-                        <img class="Booki" src="images/logo/Booki.png" alt="logo booki">
-                        <ul class="ulHeader">
-                            <li class="liHebergements"><a href="#" class="a-ulheader">Hébergements</a></li>
-                            <li class="liActivités"><a href="#" class="a-ulheader">Activités</a></li>
-                        </ul>
-                     </nav>
-                    
-                
+            <nav class="navIcon">
+                <a href="#" class="logoBooki">
+                    <img class="Booki" src="images/logo/Booki.png" alt="logo booki">
+                </a>
+                        
+                <ul class="navBar">
+                    <li>
+                        <a href="#sectionHebergements" class="active">Hébergements</a>
+                    </li>
+                    <li>
+                        <a href="#activitésMarseille" class="activities">Activités</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
         <main>
-            <section class="sectionRecherche">
+            <section id="sectionRecherche">
                 
-                <div class="rechercheHp">
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p class="pH">En plein centre-ville ou en pleine nature</p>
+                <div class="rechercheHP">
+                    <h1 class="rechercheH">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p class="rechercheP">En plein centre-ville ou en pleine nature</p>
                 </div>
                 
                 <div class="recherche-container">
                     <div class="mapInput">
-                        <div class="map"><img src="images/logo/logo_position.png" alt=""></div>
-                        <div class="input"><input type placeholder="Marseille,France"></div>
-                        <div class="recherche"><button>rechercher</button></div>
+                        <form action="" method="get">
+                            <div class="map"><img src="images/logo/logo_position.png" alt=""></div>
+                            <input class="txtInput" type="text" placeholder="Marseille, France">
+                            <button class="recherche">Rechercher</button>
+                        </form>
+                        
                     </div>
                 </div>
 
                 <div class="filtre">
-                    <p>Filtres</p>
-                    <div>
+                    <p class="filtreP">Filtres</p>
+                    <div class="categories">
                         <button><i class="fa-solid fa-money-bill-wave"></i> Économique</button>
                         <button><i class="fa-solid fa-person"></i> Familial</button>
                         <button><i class="fa-solid fa-heart"></i> Romantique</button>
@@ -65,8 +71,10 @@
             
         
             <div class="hebergements-and-populaires">
-                <section class="sectionHebergements">
-                    <h2>Hébergements à Marseille</h2>
+                <section id="sectionHebergements">
+                    <h2>
+                        Hébergements à Marseille
+                    </h2>
                     <a href="">
                         <div class="articleHebergements">
                             <article class="cardHebergements">
@@ -152,12 +160,12 @@
                                     <h3>Auberge Le Panier</h3>
                                     <p>Nuit à partir de 23<span class="euro">€</span></p>
                                     <div class="card-rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                            <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                            <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
                             </article>
@@ -233,8 +241,9 @@
                     </div>
                 </section>
             </div>
-            <section class="Activités">
-                <div class="ActivitésCards">
+            <section id="activitésMarseille">
+                <h1>Activités à Marseille</h1>
+                <div class="activitésCards">
                     <article class="cardActivités">
                         <img src="images/activites/reno-laithienne.jpg" alt="">
                         <h3 class="hArticle">Vieux-Port</h3>
