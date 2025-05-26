@@ -19,6 +19,7 @@ header {
 .logoBooki{
         display: flex;
         justify-content: center;
+        margin-top: 19px;
 }
 
 img.Booki {
@@ -141,6 +142,11 @@ button.recherche {
     font-size: 1.1rem;
     line-height: 100%;
     color: #000000;
+}
+
+.categories {
+    display: flex;
+    gap: 15px;
 }
 
  .eco,.fam,.rom,.pep   {
