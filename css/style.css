@@ -243,7 +243,7 @@ p.content-subtitle {
 
 .divFooter {
     display: flex;
-    gap: 15px;
+    gap: 60px;
     width: 100%;
     height: 163px;
     padding: 20px;
@@ -291,6 +291,24 @@ article.articleFooter {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    /**HEADER**/
+
+   .mapInput {
+        width: 150%;
+   }
+
+   .filter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divCat {
+        flex-wrap: wrap;
+    }
+    
+    /**MAIN**/
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -335,9 +353,51 @@ article.articleFooter {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .cardActivités {
+        height: 270px
+    }
+    .cardActivités img {
+        height: 200px;
+    }
+    
+    .activitésCards {
+        gap: 16px;
+    }
+
+    .divFooter {
+        margin-top: -150px;
+    }
 }
+
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    /**HEADER**/
+    .navIcon  {
+        flex-direction: column;
+    }
+
+    .navBar {
+    width: 100%;
+    }
+
+    .navBar li {
+    width: 50%;
+    text-align: center;
+    }
+
+    .navBar a:hover {
+    border-bottom: 3px #0065FC solid;
+    color: #0065FC;
+    border-top: 0;
+    }
+
+    a.active {
+        border-top: 0;
+        padding-bottom: 16px;
+    }
+
     
+
 }

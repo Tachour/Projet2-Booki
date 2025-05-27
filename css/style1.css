@@ -144,6 +144,11 @@ button.recherche {
     color: #000000;
 }
 
+.divCat {
+    display: flex;
+    gap: 16px;
+}
+
 .categories {
     display: flex;
     gap: 15px;
@@ -190,10 +195,3 @@ button.recherche {
     align-items: center;
     gap: 10px;
 }
-
-
-
-
-
-
-
