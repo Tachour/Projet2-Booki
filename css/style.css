@@ -93,7 +93,7 @@ ul.nav-bar {
 
 /**MAIN**/
 
-section#section-recherche {
+#section-recherche {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -111,7 +111,7 @@ p.recherche-texte {
 
 .map-input {
     display: flex;
-    border-block-color: white;
+    border-color: white;
     margin-bottom: 20px;
 }
 
@@ -137,14 +137,14 @@ form {
     padding: 18px;
 }
     
-input.texte-input {
+.texte-input {
     width: 59%;
     border: transparent;
     font-size: 18px;
     text-align: center;
 }
 
-button.recherche {
+form button {
     width: 41%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -153,8 +153,8 @@ button.recherche {
     font-weight: 700;
     border: 0;
     cursor: pointer;
-}
-
+} 
+ 
 /******FILTRES******/
 
 .filter {
