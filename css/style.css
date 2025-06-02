@@ -460,14 +460,53 @@ article.article-footer {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
+    .main-container {
+    width: 100%;
+    max-width: 1024px;
+    min-width: 769px;
+    box-sizing: border-box;
+    }
+
+    ul.nav-bar {
+        gap: 0;
+    }
+
+    .recherche-texte {
+        margin: 16px 0 20px;
+    }
+
+    form {
+        width: 57%;
+    }
+
 
     .filter {
         flex-direction: column;
     }
 
+    .filter-cat, .categories {
+        gap: 10px;
+    }
 
+    .eco {
+        width: 54%;
+    }
 
+    .fam {
+        width: 45%;
+    }
 
+    .rom {
+        width: 48%;
+    }
+
+    .pep {
+        width: 49%;
+    }
+
+    .info-diponibilite {
+        margin: 0 0 32px;
+    }
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -500,7 +539,36 @@ article.article-footer {
         font-size: 13px;
     }
     
-   
+   .card-article {
+        height: 335px;
+        width: 25%;
+   }
+
+   #activites-marseille {
+        margin-bottom: 0;
+   }
+
+   .activites-cards {
+        gap: 15px;
+        height: 375px;
+        margin-left: 30px;
+   }
+
+   .card-article {
+        height: 335px;
+        width: 23.1%;
+   }
+
+   .card-article img {
+        height: 270px;
+   }
+   .card-article h3 {
+        margin: 0 0px 0 16px;
+   }
+
+   .div-footer {
+        gap: 26px;
+   }
 }
 
 /* Small devices (phones, less than 768px) */
