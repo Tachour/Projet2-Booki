@@ -70,10 +70,12 @@ header  {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 9px;
 }
 
 img.booki {
-    width: 10%;
+    width: 90px;
+    margin-left: -15px;
 }
 
 .nav-logo ul {
@@ -102,7 +104,8 @@ img.booki {
 #section-recherche {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 35px;
+    margin-bottom: 20px;
 } 
 
 h1.recherche-title {
@@ -112,13 +115,12 @@ h1.recherche-title {
 
 p.recherche-texte {
     font-size: 1rem;
-    margin: 16px 0 0;
+    margin: 5px 0 0;
 }
 
 .map-input {
     display: flex;
     border-color: white;
-    margin-bottom: 20px;
 }
 
 form {
@@ -170,7 +172,6 @@ form {
 .filter {
     display: flex;
     gap: 15px;
-    margin-bottom: 20px;
     flex-wrap: wrap;
 }
 
@@ -231,7 +232,7 @@ form {
 .pep {
     width: 168px;
     height: 50px;
-}
+} 
 
 .filter button:hover {
     background-color: #deebff;
@@ -244,6 +245,7 @@ p.info-diponibilite {
     align-items: center;
     gap: 10px;
     font-size: 16px;
+    margin: 0 0 16px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -702,7 +704,7 @@ article.article-footer {
     }
 
     .filter {
-        gap: 10px;
+        /* gap: 10px; */
         padding: 0;
         margin: 0;
         width: 100%;
@@ -724,14 +726,15 @@ article.article-footer {
 
     .categories {
         width: 100%;
-        margin-left: -5px;
-        gap: 3px;
+        flex-wrap: wrap;
+        /* margin-left: -5px;
+        gap: 3px; */
     }
 
     .eco,.fam,.rom,.pep {
-        width: 148px;
+        width: 160px;
         white-space: nowrap;
-        text-align: center;
+        text-align: center; 
     }
 
 
