@@ -89,8 +89,8 @@ img.booki {
 }
 
 .nav-barli a:hover {
-    border-top: 3px #0065FC solid;
-    color: #0065FC;
+    border-top: 3px var(--main-color) solid;
+    color: var(--main-color) ;
     padding-top: 22px;
 }
 
@@ -120,7 +120,7 @@ p.recherche-texte {
 
 .map-input {
     display: flex;
-    border-color: white;
+    border-color: var(--main-bg-color);
 }
 
 form {
@@ -129,12 +129,12 @@ form {
     height: 55px;
     border: 1px solid;
     border-radius: 15px;
-    border-color: #F2F2F2;
+    border-color: var(--main-bg-color);
 }
 
 .map {
     
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
     width: 50px;
     height: 56px;
     border-top-left-radius: 15px;
@@ -156,7 +156,7 @@ form {
     width: 41%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #0065FC;
+    background-color: var(--main-color);
     color: #FFFFFF;
     font-weight: 700;
     border: transparent;
@@ -235,7 +235,7 @@ form {
 } 
 
 .filter button:hover {
-    background-color: #deebff;
+    background-color: var(--filter-bg-color);
 }
 
 /***INFOS***/
@@ -437,7 +437,7 @@ footer {
     width: 100%;
     height: 163px;
     padding: 20px;
-    background: #F2F2F2;
+    background: var(--main-bg-color);
 }
 
 article.article-footer {
@@ -638,7 +638,7 @@ article.article-footer {
     }
 
     .nav-barli {
-        border-bottom: 3px solid #f2f2f2;
+        border-bottom: 3px solid var(--main-bg-color);
         width: 50%;
         margin: 0;
         padding-bottom: 16px;
@@ -835,8 +835,4 @@ article.article-footer {
     .assistance-footer {
         margin-top: -25px;
     }
-
-
-
-
 }
