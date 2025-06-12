@@ -211,28 +211,10 @@ form {
         border: 2px solid #D9D9D9;
         font-size: 15px;
         background-color: white;
+        width: 100%;
+        height: 50px;
     }
 
-.eco {
-    width: 173px;
-    height: 50px;
-}
-
-.fam {
-    width: 134px;
-    height: 50px;
-    padding-left: 25px;
-}
-
-.rom {
-    width: 170px;
-    height: 50px;
-}
-
-.pep {
-    width: 168px;
-    height: 50px;
-} 
 
 .filter button:hover {
     background-color: var(--filter-bg-color);
@@ -503,22 +485,6 @@ article.article-footer {
         gap: 10px;
     }
 
-    .eco {
-        width: 54%;
-    }
-
-    .fam {
-        width: 45%;
-    }
-
-    .rom {
-        width: 48%;
-    }
-
-    .pep {
-        width: 49%;
-    }
-
     .info-diponibilite {
         margin: 0 0 32px;
     }
@@ -728,12 +694,10 @@ article.article-footer {
     .categories {
         width: 100%;
         flex-wrap: wrap;
-        /* margin-left: -5px;
-        gap: 3px; */
     }
 
     .eco,.fam,.rom,.pep {
-        width: 133px;
+        width: 48%;
         white-space: nowrap;
         text-align: center; 
         font-size: 13px;
@@ -839,3 +803,7 @@ article.article-footer {
         margin-top: -25px;
     }
 }
+
+
+
+   
